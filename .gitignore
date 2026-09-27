@@ -1,0 +1,7 @@
+/.tools/
+/.m2/
+/frontend-react/node_modules/
+/frontend-react/dist/
+/backend-java/target/
+/backend-java/data/
+*.log
