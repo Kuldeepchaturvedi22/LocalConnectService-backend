@@ -8,4 +8,5 @@ import java.util.Optional;
 public interface EnquiryRepository extends JpaRepository<Enquiry, Long> {
   Page<Enquiry> findAllByOrderByCreatedAtDesc(Pageable pageable);
   Optional<Enquiry> findByPublicId(String publicId);
+  long countByStatus(EnquiryStatus status);
 }
